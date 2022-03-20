@@ -1,0 +1,10 @@
+name: NsUHC
+version: '${project.version}'
+main: xyz.notscammer.nsuhc.NsUHC
+api-version: 1.18
+description: NotScammer's UHC Plugin
+author: NotScammer
+commands:
+  uhc:
+    description: Main uhc command
+    usage: /uhc
