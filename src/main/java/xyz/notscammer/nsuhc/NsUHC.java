@@ -15,6 +15,7 @@ public final class NsUHC extends JavaPlugin {
         System.out.println(prefix + " has been enabled, thanks for using!");
         getCommand("uhc").setExecutor(new UhcCommand());
         BukkitTask timer = new BorderTimer(this).runTaskTimer(this,0L,40L);
+        Bukkit.getServer().addRecipe(GoldenHead.getGoldenHeadRecipe());
     }
 
     @Override
